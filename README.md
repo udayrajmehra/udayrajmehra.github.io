@@ -200,7 +200,7 @@ Just use it.
 
 All CSS and JS files are compressed at `/static/assets`.
 
-I use [UglifyJS2](https://github.com/mishoo/UglifyJS2) and [clean-css](https://github.com/jakubpawlowicz/clean-css) to compress CSS and JS files. If you want to custom CSS and JS files, you need to do the following:
+I use [UglifyJS2](https://github.com/mishoo/UglifyJS2), [clean-css](https://github.com/jakubpawlowicz/clean-css) and [purifycss](https://github.com/purifycss/purifycss) to compress/purify CSS and JS files. If you want to custom CSS and JS files, you need to do the following:
 
 1. Install **UglifyJS2** and **clean-css**: `npm install -g uglifyjs; npm install -g clean-css`, then run `npm install` at root dir of project.
 2. Compress script is **build.js**, index page has its own CSS and JS compressed files, they are :
@@ -218,7 +218,7 @@ I use [UglifyJS2](https://github.com/mishoo/UglifyJS2) and [clean-css](https://g
   * **jPage-xxx.min.js**
 
   **xxx** is date when you compress your files.
-3. If you want to add/remove CSS/JS files, just edit **build.js**, and run `npm run build` at root dir of project, link/src files will use new files.
+3. If you want to add/remove CSS/JS files, just edit **build/build.js** and **build/files.conf.js**, then run `npm run build` at root dir of project, link/src files will use new files.
 
 ## <a name="put-in-a-jalpc-plug"></a>Put in a Jalpc Plug
 
@@ -268,6 +268,8 @@ There may be merge conflicts, so be sure to fix the files that git lists if they
 1. `jekyll server --watch` mode need to use original CSS/JS files
 
 ##  <a name="change-log"></a>Change Log
+* v1.1.2
+  * purify style.css
 * v1.1.1
   * display skills with Chart.js
   * add shelljs and colors
