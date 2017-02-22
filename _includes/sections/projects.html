@@ -21,7 +21,7 @@
                   <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
                   <h4>
                   {% if project.repo %}
-                  <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/udayrajmehra/udayrajmehra.github.io/master/Eagles/Resources/Index.html" target="_blank"><span class="navy">{{ project.name }}</span></a>
+                      <a href="http://htmlpreview.github.io/?{{ project.gh_user }}" target="_blank"><span class="navy">{{ project.name }}</span></a>
                   {% else %}
                   <span class="navy">{{ project.name }}</span>
                   {% endif %}
