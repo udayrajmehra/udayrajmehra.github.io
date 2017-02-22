@@ -12,12 +12,12 @@
   i18n: leetcode
   gh_user: http://htmlpreview.github.io/?https://raw.githubusercontent.com/udayrajmehra/udayrajmehra.github.io/master/Eagles/Resources/Index.html
   repo: LeetCode
-  img: /static/assets/img/landing/leetcode.png
+  img: /static/assets/img/landing/MB_School_Logo.png
   desc: A website concept for the school tech support team, the Eagles.
 
 - name: Anti-Bullying Campaign
   i18n: jalpc
   gh_user: https://htmlpreview.github.io/?https://raw.githubusercontent.com/udayrajmehra/udayrajmehra.github.io/master/Sidescroll/Resources/Home.html
   repo: Jalpc
-  img: /static/assets/img/landing/MB_School_Logo.png
+  img: /static/assets/img/landing/jekyll.jpg
   desc: An experiment with side-scrolling HTML for an anti-bullying campaign in school. 
