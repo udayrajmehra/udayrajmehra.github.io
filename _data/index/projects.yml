@@ -3,21 +3,21 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Jalpc
   i18n: jalpc
-  gh_user: https://raw.githubusercontent.com/udayrajmehra/udayrajmehra.github.io/master/Phone%20Tablet%20Mac/iframe.html
+  gh_user: http://htmlpreview.github.io/?https://raw.githubusercontent.com/udayrajmehra/udayrajmehra.github.io/master/Phone%20Tablet%20Mac/iframe.html
   repo: Jalpc
   img: /static/assets/img/landing/jekyll.png
   desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
 
 - name: LeetCode
   i18n: leetcode
-  gh_user: https://raw.githubusercontent.com/udayrajmehra/udayrajmehra.github.io/master/Eagles/Resources/Index.html
+  gh_user: http://htmlpreview.github.io/?https://raw.githubusercontent.com/udayrajmehra/udayrajmehra.github.io/master/Eagles/Resources/Index.html
   repo: LeetCode
   img: /static/assets/img/landing/leetcode.png
   desc: This project is other's project. I use another request to get repo's information.
 
 - name: FamilCODEWeChat
   i18n: leetcode
-  gh_user: https://raw.githubusercontent.com/udayrajmehra/udayrajmehra.github.io/master/Sidescroll/Resources/Home.html
+  gh_user: http://htmlpreview.github.io/?https://raw.githubusercontent.com/udayrajmehra/udayrajmehra.github.io/master/Sidescroll/Resources/Home.html
   repo: LeetCode
   img: /static/assets/img/landing/leetcode.png
   desc: This project is other's project. I use another request to get repo's information.
