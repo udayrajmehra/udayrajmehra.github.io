@@ -5,7 +5,7 @@
   i18n: jalpc
   gh_user: http://htmlpreview.github.io/?https://raw.githubusercontent.com/udayrajmehra/udayrajmehra.github.io/master/Phone%20Tablet%20Mac/iframe.html
   repo: Jalpc
-  img: https://support.apple.com/content/dam/edam/applecare/images/en_US/iphone/featured-content-iphone-transfer-content-ios10_2x.png
+  img: featured-content-iphone-transfer-content-ios10_2x.png
   desc: A lightweight website tester that checks for responsiveness across an iPhone, a tablet, and a Mac.
 
 - name: LeetCode
