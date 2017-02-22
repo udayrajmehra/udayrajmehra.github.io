@@ -8,12 +8,12 @@
   img: featured-content-iphone-transfer-content-ios10_2x.png
   desc: A lightweight website tester that checks for responsiveness across an iPhone, a tablet, and a Mac.
 
-- name: LeetCode
+- name: School IT Team Website Concept
   i18n: leetcode
   gh_user: http://htmlpreview.github.io/?https://raw.githubusercontent.com/udayrajmehra/udayrajmehra.github.io/master/Eagles/Resources/Index.html
   repo: LeetCode
   img: /static/assets/img/landing/leetcode.png
-  desc: This project is other's project. I use another request to get repo's information
+  desc: A website concept for the school tech support team, the Eagles.
 
 - name: Anti-Bullying Campaign
   i18n: jalpc
