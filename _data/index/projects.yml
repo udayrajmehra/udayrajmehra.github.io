@@ -17,7 +17,7 @@
 
 - name: FamilCODEWeChat
   i18n: leetcode
-  gh_user: https://raw.githubusercontent.com/udayrajmehra/udayrajmehra.github.io/master/Sidescroll/Home.html
+  gh_user: https://htmlpreview.github.io/?https://raw.githubusercontent.com/udayrajmehra/udayrajmehra.github.io/master/Sidescroll/Resources/Home.html
   repo: LeetCode
   img: /static/assets/img/landing/leetcode.png
   desc: This project is other's project. I use another request to get repo's information.
