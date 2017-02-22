@@ -1,0 +1,431 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {							
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+
+input {
+    font-family: 'Raleway', sans-serif;
+}
+
+.imac {
+    background-image: url(mac.png);
+    background-repeat: no-repeat;
+    height: 915px;
+    width: 1000px;;
+    margin: 0 auto 30px;
+    position: relative;
+    transform: scale(0.7);
+    left: 1%;
+}
+
+#biframe {
+    height: 689px;
+    width: 1205px;
+    position: absolute;
+    top: -7.6%;
+    left: -14.55%;
+    border: none;
+    transform: scale(0.7);
+}
+
+.menubar {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    min-height: 750px;
+    left: 17%;
+    top: 20%;
+}
+
+#text-1 {
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+    width: 5%;
+    left: 0;
+    top: 0;
+}
+
+#a1 {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+    width: 5%;
+    left: 0;
+    top: 0;
+    text-decoration: none;
+    border: none;
+    position: absolute;
+    width: 5%;
+    background-color: #fc9d71;
+}
+
+#a2 {
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+    width: 5%;
+    left: 0;
+    top: 0;
+    margin-left: 5%;
+    text-decoration: none;
+    border: none;
+    position: absolute;
+    width: 5%;
+}
+
+#a3 {
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+    width: 5%;
+    left: 0;
+    top: 0;
+    margin-left: 10%;
+    text-decoration: none;
+    border: none;
+    position: absolute;
+    width: 5%;
+}
+
+#a1:hover {
+    color: white;
+    transition: 0.5s;
+    background-color: #fc9d71;
+}
+
+#a2:hover {
+    color: white;
+    transition: 0.5s;
+    background-color: #fc9d71;
+}
+
+#a3:hover {
+    color: white;
+    transition: 0.5s;
+    background-color: #fc9d71;
+}
+
+.divcontainer {
+    float: left;
+}
+
+#tab-1 {
+    display: none;   
+}
+
+#tab-2 {
+    display: none;   
+}
+
+.label1 {
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    top: 2%;
+    font-size: 0.9vw;
+    left: -.05%;
+    cursor: pointer;
+    height: 23.5px;
+    width: 70px;
+    transition: 0.5s;
+    text-align: center;
+    transition: 0.5s;
+}
+
+label:hover {
+    background-color: #fc9d71;
+    color: white;
+    transition: 0.5s;
+}
+
+.label2 {
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    top: 2%;
+    font-size: 0.9vw;
+    left: 5%;
+    cursor: pointer;
+    height: 23.5px;
+    width: 70px;
+    transition: 0.5s;
+    text-align: center;
+    transition: 0.5s;
+}
+
+label2:hover {
+    background-color: #fc9d71;
+    color: white;
+    transition: 0.5s;
+}
+
+#menutext1:hover {
+    background-color: #fc9d71;
+    transition: 0.5s;
+}
+
+#menutext2 {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    top: 2%;
+    font-size: 0.9vw;
+    left: 3.5%;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 70px;
+    height: 23.5px;
+}
+
+#menutext2:hover {
+    background-color: #fc9d71;
+    transition: 0.5s;
+}
+
+#menutext3 {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    top: 2%;
+    font-size: 0.9vw;
+    left: 7%;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 70px;
+    height: 23.5px;
+}
+
+#menutext3:hover {
+    background-color: #fc9d71;
+    transition: 0.5s;
+}
+
+.titletext {
+    color: #1e1e1e;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+    top: -1%;
+    position: absolute;
+    left: 16%;
+    text-align: center;
+}
+
+#iphone-container {					
+    position: absolute;                                       
+    left: 42%;                            
+    top: 0%;
+    height: 500px;
+    z-index: 10;
+    perspective: 150px;
+}
+
+
+#iphone {                        
+    width: 300px;                  
+    padding: 20px;                 
+    background-color: #333;        
+    border-radius: 20px;
+    position: fixed;
+    left: 40%;
+    top: 20%;
+    height: 380px;
+    border: none;
+    transform: rotateX(10deg) rotateZ(-10deg);
+    box-shadow:                                            
+        -1px 1px 0 0px #4dbef8,                        
+        -2px 2px 0 0px #4dbef8,                      
+        -1px 3px 0 0px #4dbef8,                       
+        -4px 4px 0 0px #4dbef8,                       
+        -4px 5px 0 0px #4dbef8,                     
+        -4px 6px 0 0px #4dbef8,
+        -4px 7px 0 0px #4dbef8,
+        -4px 8px 0 0px #4dbef8, 
+        -4px 9px 0 0px #4dbef8,
+        -4px 10px 0 0px #4dbef8,
+        -100px 60px 10px -30px rgba(0, 0, 0, 0.6),
+        0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+    animation: straighten-back 0.5s;
+    transition: 0.5s;
+}
+
+#iphone:hover {
+    animation: straighten 0.5s ease forwards;
+    transition: 2s;
+}
+
+#ipad-container {
+    position: absolute;
+    left: 23%;
+    top: 0%;
+    height: 500px;
+    z-index: 10;
+    perspective: 150px;
+}
+
+#ipad {
+    width: 500px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 20px;
+    position: fixed;
+    left: 40%;
+    top: -2%;
+    height: 380px;
+    border: none;
+    transform: rotateX(10deg) rotateZ(-10deg);
+    box-shadow: 
+        -1px 1px 0 0px #1e1e1e,
+        -2px 2px 0 0px #1e1e1e, 
+        -1px 3px 0 0px #1e1e1e,
+        -4px 4px 0 0px #1e1e1e,
+        -4px 5px 0 0px #1e1e1e,
+        -4px 6px 0 0px #1e1e1e,
+        -4px 7px 0 0px #1e1e1e,
+        -4px 8px 0 0px #1e1e1e, 
+        -4px 9px 0 0px #1e1e1e,
+        -4px 10px 0 0px #1e1e1e,
+        -100px 60px 10px -30px rgba(0, 0, 0, 0.6),
+        0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+    animation: straighten-back 0.5s;
+    transition: 0.5s;
+}
+
+#ipad:hover {
+    animation: straighten 0.5s ease forwards;
+    transition: 2s;
+}
+
+.link {
+    font-family: "Myriad Pro";
+    background-color: #4dbef8;
+    border-radius: 5px;
+    color: white;
+    width: 140px;
+    transition: 0.5s
+}
+
+
+.link:hover {
+    transition: 0.5s;
+    box-shadow: inset 0 20px 0 0 #6C3;
+}
+
+#search-box {
+    width: 190px;
+    height: 21px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+input[type=text] {
+    padding: 5px;
+    background: #eaeaea; 
+    border: 0px none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px; 
+    width: 300px;
+}
+
+input[type=button] {
+    padding: 5px;
+    background: #f45d18; 
+    border: 0px none;
+    font-family: 'Raleway', sans-serif;
+    top: 1%;
+    position: absolute;
+    left: 170%;
+    width: 40%;
+    cursor: pointer;
+    color: red;
+    font-size: 0.7vw;
+}
+
+#buttontext {
+    font-family: 'PT Sans', sans-serif;
+    position: absolute;
+    top: 11.2%;
+    left: 65%;
+    font-size: 0.8vw;
+    cursor: pointer;
+    pointer-events: none;
+    color: white;
+}
+
+@keyframes straighten {
+    0% {transform: rotateX(10deg) rotateZ(-10deg);
+    }
+    100% {transform: rotateX(1deg) rotateZ(0deg);
+        height: 550px;
+        box-shadow: 
+            0px 0px 0 6px #4dbef8,
+            0px 0px 0 0px #4dbef8, 
+            0px 0px 0 0px #4dbef8,
+            0px 0px 0 0px #4dbef8,
+            0px 0px 0 0px #4dbef8,
+            0px 0px 0 0px #4dbef8,
+            0px 0px 0 0px #4dbef8,
+            0px 0px 0 0px #4dbef8, 
+            0px 0px 0 0px #4dbef8,
+            1.5px 1.5px 0 0px #4dbef8,
+            -100px 60px 10px -30px rgba(0, 0, 0, 0.6),
+            0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+    }
+}
+
+@keyframes straighten-back {
+
+    0% {transform: rotateX(1deg) rotateZ(0deg);
+        height: 550px;
+        box-shadow: 
+            0px 0px 0 6px #4dbef8,
+            0px 0px 0 0px #4dbef8, 
+            0px 0px 0 0px #4dbef8,
+            0px 0px 0 0px #4dbef8,
+            0px 0px 0 0px #4dbef8,
+            0px 0px 0 0px #4dbef8,
+            0px 0px 0 0px #4dbef8,
+            0px 0px 0 0px #4dbef8, 
+            0px 0px 0 0px #4dbef8,
+            1.5px 1.5px 0 0px #4dbef8,
+            -100px 60px 10px -30px rgba(0, 0, 0, 0.6),
+            0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+    }
+    100% {transform: rotateX(10deg) rotateZ(-10deg);
+        box-shadow: 
+            -1px 1px 0 0px #4dbef8,
+            -2px 2px 0 0px #4dbef8, 
+            -1px 3px 0 0px #4dbef8,
+            -4px 4px 0 0px #4dbef8,
+            -4px 5px 0 0px #4dbef8,
+            -4px 6px 0 0px #4dbef8,
+            -4px 7px 0 0px #4dbef8,
+            -4px 8px 0 0px #4dbef8, 
+            -4px 9px 0 0px #4dbef8,
+            -4px 10px 0 0px #4dbef8,
+            -100px 60px 10px -30px rgba(0, 0, 0, 0.6),
+            0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+        height: 380px;
+    }
+}
+
+	

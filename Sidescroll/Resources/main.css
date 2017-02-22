@@ -1,0 +1,795 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/* Document Setup */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Page 1 Picture background - Blur, Black and White, Focal Point */
+.page1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(204, 204, 204, 0.5);
+	background-image: url(bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+    -webkit-filter: saturate(0);
+    filter: saturate(0);
+    z-index: 1;
+}
+
+.page1cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(204, 204, 204, 0.5);
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: saturate(0);
+    filter: saturate(0);
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    z-index: 99; 
+}
+
+.page1cover3 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+.page1cover4 {
+    box-shadow: inset 0 0 200em #666;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 99.5;
+    -webkit-filter: saturate(0);
+    filter: saturate(0);
+}
+
+.instructions {
+    position: absolute;
+    z-index: 101;
+    top: 40%;
+    left: 60.5%;
+    height: 20%;
+}
+
+#pagemarker1 {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: 0%;
+}
+    
+/* Menu */
+.menu {
+    position: fixed;
+    z-index: 99;
+    transform: translate3d(-100%, 0, 0);
+    width: 17.65%;
+    height: 2000%;
+    transition: 0.5s;
+    background-color: #1e1e1e;
+}
+
+.menucontents1 {
+    color: white;
+    font-size: 130%;
+    z-index: 100;
+    position: absolute;
+    top: 1.2%;
+    left: 4%;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
+
+.menucontents1:hover {
+    color: #6dfbd3;
+}
+
+.menucontents2 {
+    color: white;
+    font-size: 130%;
+    z-index: 100;
+    position: absolute;
+    top: 1.6%;
+    left: 4%;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
+
+.menucontents2:hover {
+    color: #6dfbd3;
+}
+
+.menucontents3 {
+    color: white;
+    font-size: 130%;
+    z-index: 100;
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
+
+.menucontents3:hover {
+    color: #6dfbd3;
+}
+
+.menucontents4 {
+    color: white;
+    font-size: 130%;
+    z-index: 100;
+    position: absolute;
+    top: 2.4%;
+    left: 4%;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
+
+.menucontents4:hover {
+    color: #6dfbd3;
+}
+
+/* Hamburger Icon */
+.hamburgericon {
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    z-index: 101;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.38);
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.38);
+    transition: 0.5s; 
+}
+
+.hamburgericon1 {
+    position: fixed;
+    top: 3%;
+    left: 1%;
+    z-index: 101;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.38);
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.38);
+    transition: 0.5s; 
+}
+
+.hamburgericon2 {
+    position: fixed;
+    top: 5%;
+    left: 1%;
+    z-index: 101;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.38);
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.38);
+    transition: 0.5s; 
+}
+
+
+/* Menu Slide Out - Icon Rotation, etc. */
+#container {
+    transition: 0.5s; 
+    top: 1%;
+    position: absolute;
+    z-index:  10001;
+    width: 3%;
+    height: 5%;
+    left: 1%;
+    cursor: pointer;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+#container:focus + .menu { 
+    z-index: 10000;
+    transition: 0.5s;
+    transform: translate3d(0, 0, 0);
+}
+
+#container:focus .hamburgericon {
+    transition: 0.5s;
+    transform: rotate(90deg);
+    top: 5%;
+    left: 2%;
+}
+
+#container:focus .hamburgericon1 {
+    transition: 0.5s;
+    transform: rotate(90deg);
+    left: 1%;
+    top: 5%;
+}
+
+#container:focus .hamburgericon2 {
+    transition: 0.5s;
+    transform: rotate(90deg);
+    left: 0%;
+}
+
+
+/* Hamburger Icon Hovers - Not used, can be added easily here /*
+/*
+#container:hover .hamburgericon {
+    transition: 0.5s;
+    transform: rotate(90deg);
+    top: 5%;
+    left: 2%;
+}
+
+#container:hover .hamburgericon1 {
+    transition: 0.5s;
+    transform: rotate(90deg);
+    left: 0%;
+    top: 5%;
+}
+
+#container:hover .hamburgericon2 {
+    transition: 0.5s;
+    transform: rotate(90deg);
+    left: 1%;
+}
+*/
+
+/* Main Page Text */
+
+.title1 {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 3.5vw;
+    font-weight: bold;
+    left: 46.5%;
+    top: 9%;
+    z-index: 100000000000;
+}
+
+.title2container {
+    left: 35.4%;
+    top: 25%;
+    position: absolute;
+    width: 30%;
+    height: 8%;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 100000000000000000000;
+    cursor: pointer;
+    text-align: right;
+    display: block;
+}
+
+.title21 {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 5vw;
+    left: 0px;
+    top: -155%;
+    font-weight: bolder;
+    z-index: 100000000000;
+    transition: 0.5s;
+    cursor: pointer;
+    width: 100%;
+}
+
+.title22 {
+    font-family: 'PT Sans', sans-serif;
+    color: #6dfbd3;
+    position: absolute;
+    font-size: 5vw;
+    left: 0px;
+    top: -280%;
+    font-weight: bolder;
+    z-index: 100000000000;
+    transition: 0.5s;
+    cursor: pointer;
+    width: 100%;
+}
+
+.title2container:hover > .title21 {
+    top: 100%;
+    transition: 0.5s;
+}
+
+.title2container:hover > .title22 {
+    top: -155%;
+    transition: 0.5s;
+}
+
+.bodycontainer {
+    left: 38%;
+    top: 37%;
+    position: absolute;
+    width: 27%;
+    height: 45%;
+    transition: 0.5s;
+    z-index: 100000000000000000000;
+    cursor: pointer;
+    text-align: right;
+    display: block;
+}
+
+.body1 {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 2vw;
+    font-weight: normal;
+    top: -10%;
+    z-index: 100000000000;
+}
+
+.body2 {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 0.9vw;
+    font-weight: lighter;
+    top: 17%;
+    z-index: 100000000000;
+    width: 100%;
+}
+
+/* Page 2 */
+
+.page2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    background: rgba(204, 204, 204, 0.5);
+    background-image: url(bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: saturate(0);
+    filter: saturate(0);
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    z-index: 99.8; 
+}
+
+.page2b {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    background: rgba(204, 204, 204, 0.5);
+    background-image: url(bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Page 2 - Text */
+
+.title12 {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 3.5vw;
+    font-weight: bold;
+    left: 40%;
+    top: 9%;
+    z-index: 100000000000;
+    width: 40%;
+}
+
+.title121 {
+    font-family: 'PT Sans', sans-serif;
+    color: #6dfbd3;
+    position: absolute;
+    font-size: 3.5vw;
+    font-weight: bold;
+    z-index: 100000000000;
+    width: 100%;
+    top: -104%;
+}
+
+.title21container {
+    left: 53.5%;
+    top: 17.5%;
+    position: absolute;
+    width: 33%;
+    height: 8%;
+    transition: 0.5s;
+    z-index: 100000000000000000000;
+    cursor: pointer;
+    text-align: left;
+    overflow: hidden;
+}
+
+.title121A {
+    font-family: 'PT Sans', sans-serif;
+    color: #6dfbd3;
+    position: absolute;
+    font-size: 3.5vw;
+    font-weight: bold;
+    z-index: 100000000000;
+    width: 100%;
+    top: -10%;
+}
+
+.title121B {
+    font-family: 'PT Sans', sans-serif;
+    color: #6dfbd3;
+    position: absolute;
+    font-size: 3.5vw;
+    font-weight: bold;
+    z-index: 100000000000;
+    width: 100%;
+    top: 75%;
+}
+
+.title121C {
+    font-family: 'PT Sans', sans-serif;
+    color: #6dfbd3;
+    position: absolute;
+    font-size: 3.5vw;
+    font-weight: bold;
+    z-index: 100000000000;
+    width: 100%;
+    top: 160%;
+}
+
+.title121D {
+    font-family: 'PT Sans', sans-serif;
+    color: #6dfbd3;
+    position: absolute;
+    font-size: 3.5vw;
+    font-weight: bold;
+    z-index: 100000000000;
+    width: 100%;
+    top: 245%;
+}
+
+.p2coverh {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    z-index: 1000;
+}
+
+.p2coverh:hover .title121 {
+    animation-name: flex;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.p2coverh:hover .title121A {
+    animation-name: flex1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    transition: 0.5s;
+}
+
+.p2coverh:hover .title121B {
+    animation-name: flex2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    transition: 0.5s;
+}
+
+.p2coverh:hover .title121C {
+    animation-name: flex2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    transition: 0.5s;
+}
+
+.p2coverh:hover .title121D {
+    animation-name: flex4;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 3.5s;
+    transition: 0.5s;
+}
+
+
+.p2body {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 0.9vw;
+    font-weight: lighter;
+    top: 26%;
+    z-index: 100000000000;
+    width: 40%;
+    left: 40%;
+}
+
+#pagemarker2 {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: 200%;
+}
+
+/* Animations */
+
+@keyframes flex {
+    0% {top: -104%;}
+    100% {top: -300%;}
+}
+
+@keyframes flex1 {
+    0% {top: -104%;}
+    50% {top: -104%;}
+    100% {top: -300%;}
+}
+
+@keyframes flex2 {
+    0% {top: -75%;}
+    50% {top: -104%;}
+    100% {top: -300%;}
+}
+
+@keyframes flex3 {
+    0% {top: 160%;}
+    30% {top: -104%;}
+    100% {top: -300%;}
+}
+
+@keyframes flex4 {
+    0% {top: 245%;}
+    100% {top: -104%;}
+}
+
+/* Page 3 */
+
+.page3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 200%;
+    background: rgba(204, 204, 204, 0.5);
+    background-image: url(bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: saturate(0);
+    filter: saturate(0);
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    z-index: 99.8; 
+}
+
+.p3coverh {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 200%;
+    z-index: 1000;
+}
+
+
+.title13 {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 3.5vw;
+    font-weight: bold;
+    left: 40%;
+    top: -100%;
+    z-index: 100000000000;
+    width: 40%;
+}
+
+.title13a {
+    font-family: 'PT Sans', sans-serif;
+    color: #6dfbd3;
+    position: absolute;
+    font-size: 3.5vw;
+    font-weight: bold;
+    left: 61%;
+    top: -100%;
+    z-index: 100000000000;
+    width: 40%;
+}
+
+.p3body {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 0.9vw;
+    font-weight: lighter;
+    top: 17%;
+    z-index: 100000000000;
+    width: 50%;
+    left: 40%;
+}
+
+.p3coverh:hover .title13a {
+    animation-name: onLoad;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    transition: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.p3coverh:hover .title13 {
+    animation-name: onLoad;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    transition: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.p3coverh:hover .p3body {
+    animation-name: onLoad2;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    transition: 2s;
+    animation-delay: 0.5s;
+}
+
+#pagemarker3 {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: 300%;
+}
+
+/* Animation */
+
+@keyframes onLoad {
+    0% {top: -100%;}
+    100% {top: 9%;}
+}
+
+@keyframes onLoad2 {
+    0% {background: initial;}
+    100% {background: rgba(0, 0, 0, 0.52);}
+}
+
+/* Page 4 */
+
+.page4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 300%;
+    background: rgba(204, 204, 204, 0.5);
+    background-image: url(bg5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: saturate(0);
+    filter: saturate(0);
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    z-index: 99.8; 
+}
+
+.p4coverh {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 300%;
+    z-index: 1000;
+}
+
+.title14 {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 3.5vw;
+    font-weight: bold;
+    left: 35%;
+    top: 15%;
+    z-index: 100000000000;
+    width: 55%;
+}
+
+.title14a {
+    font-family: 'PT Sans', sans-serif;
+    color: #6dfbd3;
+    position: absolute;
+    font-size: 3.5vw;
+    font-weight: bold;
+    left: 59.5%;
+    top: 15%;
+    z-index: 100000000000;
+    width: 30%;
+    opacity: 0;
+}
+
+.p4coverh:hover .title14a {
+    animation-name: load;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.p4coverh:hover .p4body {
+    animation-name: load2;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+.p4body {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 0.9vw;
+    font-weight: lighter;
+    top: 25%;
+    z-index: 100000000000;
+    width: 50%;
+    left: 35.5%;
+}
+
+#pagemarker4 {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: 390%;
+}
+
+/* Animation */
+
+@keyframes load {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes load2 {
+    0% {background: initial;}
+    100% {background: rgba(0, 0, 0, 0.52);}
+}
+
+/* Last Page */
+
+.page5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 400%;
+    z-index: 1000000000;
+    background-color: white;
+    box-shadow: inset 0 0 200em #666;
+}
+
+.title15 {
+    font-family: 'PT Sans', sans-serif;
+    color: #1e1e1e;
+    position: absolute;
+    font-size: 3.5vw;
+    font-weight: bold;
+    left: 32%;
+    top: 45%;
+    z-index: 100000000000;
+    width: 55%;
+}
+
+

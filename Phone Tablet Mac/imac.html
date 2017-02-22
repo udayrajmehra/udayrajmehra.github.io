@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Mobile Simulation</title>
+    <link href="imac.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="menubar">
+        <p id="text-1"><a id="a1" href="iframe.html">MOBILE</a></p>
+        <p id="text-1"><a id="a2" href="ipad.html">TABLET</a></p>
+        <p id="text-1"><a id="a3" href="imac.html">MAC</a></p>
+    </div>
+       <div class="imac">
+               <iframe id="biframe" src="https://www.dudamobile.com">
+               </iframe>
+        </div>
+               
+    
+       <!--
+       <div id="ipad-container">
+           <iframe id="ipad" src="https://www.dudamobile.com">
+           </iframe>
+               </div> -->
+           
+           
+           
+       <!--
+       <p id="menutext1"><a id="a1" tabindex="1" href="#1">MOBILE</a></p>
+       <p id="menutext2" tabindex="2"><a id="a2" href="ipad.html">MAC</a></p>
+       <p id="menutext3" tabindex="3"><a id="a3"href="imac.html">TABLET</a></p>-->
+       
+
+    
+
+
+
+
+    <script type="text/javascript">
+        function loadUrl() {
+            document.getElementById("iphone").src = document.getElementById("urlSource").value;
+            
+        }
+        
+    </script>
+    
+
+    <p id="search-box"><input type="text" id="urlSource" value="http://www." placeholder="http://dudamobile.com">
+        <input type="button" {value="Go to Site" onclick="loadUrl()" }></p>
+    <p id="buttontext">Go to Site</p>
+    <p class="titletext">Ever wanted to see what your site looks like on mobile? Just enter the URL!</p>
+
+</body>
+</html>
