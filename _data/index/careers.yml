@@ -29,16 +29,16 @@
   icon: fa-plus-square
   
 - name:
-    detail: Student Council
+    detail: Ultimate Frisbee
     i18n: company_c
   desc:
-    detail: Elected to Student Council
+    detail: Participated in and ran Ultimate Frisbee Club
     i18n: company_c_desc
   date:
-    detail: 2011-Present
+    detail: 2011-2015
     i18n: company_c_date
   job:
-    detail: Treasurer, Vice-President
+    detail: 
     i18n: company_c_job
   icon: fa-plus-square
   
