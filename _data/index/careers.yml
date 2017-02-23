@@ -13,20 +13,6 @@
     detail: 
     i18n: company_a_job
   icon: fa-plus-square
-
-- name:
-    detail: Student Council
-    i18n: company_a
-  desc:
-    detail: Elected to Student Council
-    i18n: company_a_desc
-  date:
-    detail: 2011-Present
-    i18n: company_a_date
-  job:
-    detail: Treasurer, Vice-President
-    i18n: company_a_job
-  icon: fa-plus-square
   
   - name:
     detail: Ultimate Frisbee
