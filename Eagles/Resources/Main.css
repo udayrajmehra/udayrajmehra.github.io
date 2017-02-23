@@ -3,11 +3,11 @@
 
 .iframecontainer {
     width: 500px;
-    height: 291px;
+    height: 400px;
     padding: none;
     margin: none;
     left: 35%;
-    top: 50%;
+    top: 37%;
     position: absolute;
     overflow: hidden;
     -webkit-box-shadow: 11px 17px 16px 0px rgba(0,0,0,0.52);
@@ -560,55 +560,61 @@ body {
 
 .leaderboard1 {
     width: 672px;
-    position: absolute;
+    position: relative;
+    float: left;
     height: 160px;
-    left: 46%;
-	top: 36vh;
+    left: 1%;
+	top: 10vh;
 	background-color: white;
 }
 
 .leaderboard2 {
     width: 672px;
-    position: absolute;
+    position: relative;
+    float: left;
     height: 160px;
-    left: 46%;
-    top: 19vh;
+    left: 1%;
+    top: 15vh;
     background-color: white;
 }
 
 .leaderboard3 {
     width: 672px;
-    position: absolute;
+    position: relative;
+    float: left;
     height: 160px;
-    left: 46%;
-    top: 520px;
+    left: 1%;
+    top: 20vh;
     background-color: white;
 }
 
 .leaderboard4 {
     width: 672px;
-    position: absolute;
+    position: relative;
+    float: right;
     height: 160px;
-    left: 238%;
-    top: 520px;
+    left: 260%;
+    top: -63vh;
     background-color: white;
 }
 
 .leaderboard5 {
     width: 672px;
-    position: absolute;
+    position: relative;
+    float: right;
     height: 160px;
-    left: 238%;
-    top: 180px;
+    left: 260%;
+    top: -58vh;
     background-color: white;
 }
 
 .leaderboard6 {
     width: 672px;
-    position: absolute;
+    position: relative;
+    float: right;
     height: 160px;
-    left: 238%;
-    top: 36vh;
+    left: 260%;
+    top: -53vh;
     background-color: white;
 }
 
@@ -797,11 +803,15 @@ body {
 .p4text1 {
 	font-family: Montserrat;
 	color: #1e1e1e;
-	position: absolute;
+	float: left;
 	text-align: center;
 	font-size: 250%;
-	left: 32.5%;
-	right: 40%;
+    display: block;
+    position: relative;
+    float: left;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 40%;
 }
 
@@ -820,10 +830,13 @@ body {
 .p4text2 {
     font-family: 'Open Sans', sans-serif;  
 	color: white;
-	position: absolute;
 	text-align: center;
 	font-size: 150%;
-	left: 40%;
+    position: relative;
+    float: left;
+    top: -20%;
+    left: 40%;
+    transform: translate(0%, -50%);
 }
 
 .p4text3 {
@@ -832,8 +845,12 @@ body {
 	position: absolute;
 	text-align: center;
 	font-size: 100%;
-	left: 37%;
-	width: 30%;
+	min-width: 300px;
+    position: relative;
+    float: left;
+    top: -25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .p4btint {
