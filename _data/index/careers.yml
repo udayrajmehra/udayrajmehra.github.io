@@ -15,16 +15,16 @@
   icon: fa-plus-square
 
 - name:
-    detail: Company B
+    detail: Student Council
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: Elected to Student Council
     i18n: company_b_desc
   date:
-    detail: Jun. 2015
+    detail: 2011-Present
     i18n: company_b_date
   job:
-    detail: Full Stack Developer
+    detail: Treasurer, Vice-President
     i18n: company_b_job
   icon: fa-plus-square
   
