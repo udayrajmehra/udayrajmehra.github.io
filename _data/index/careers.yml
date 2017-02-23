@@ -56,5 +56,17 @@
     i18n: company_d_job
   icon: fa-plus-square
   
-
+- name:
+    detail: Blue Frog Café
+    i18n: company_e
+  desc:
+    detail: Played Guitar at Blue Frog Café Mumbai
+    i18n: company_e_desc
+  date:
+    detail: 2012
+    i18n: company_e_date
+  job:
+    detail:
+    i18n: company_e_job
+  icon: fa-plus-square
   
