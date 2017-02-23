@@ -1,283 +1,30 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
-- name: a
-    detail: School Band
+- name:
+    detail: Company A
     i18n: company_a
   desc:
-    detail: Lead School Band
+    detail: I worked at Company A ...
     i18n: company_a_desc
   date:
-    detail: 2011-Present
+    detail: Apr. 2016
     i18n: company_a_date
   job:
-    detail: 
-    i18n: company_a_job
-  icon: fa-plus-square
-  
-- name: b
-    detail: Student Council
-    i18n: company_a
-  desc:
-    detail: Elected to Student Council
-    i18n: company_a_desc
-  date:
-    detail: 2011-Present
-    i18n: company_a_date
-  job:
-    detail: Treasurer, Vice-President
-    i18n: company_a_job
-  icon: fa-plus-square
-  
-- name: c
-    detail: Ultimate Frisbee
-    i18n: company_a
-  desc:
-    detail: Participated it and ran Ultimate Frisbee Club
-    i18n: company_a_desc
-  date:
-    detail: 2011-2015
-    i18n: company_a_date
-  job:
-    detail: 
+    detail: CTO
     i18n: company_a_job
   icon: fa-plus-square
 
-- name: d
-    detail: Yearbook Club
-    i18n: company_a
-  desc:
-    detail: Worked as a Graphic Designer for the School Yearbook
-    i18n: company_a_desc
-  date:
-    detail: 2011-2014
-    i18n: company_a_date
-  job:
-    detail: 
-    i18n: company_a_job
-  icon: fa-plus-square
-
-- name: e
-    detail: Blue Frog Café
+- name:
+    detail: Company B
     i18n: company_b
   desc:
-    detail: Played Guitar at Blue Frog Café Mumbai
+    detail: I worked at Company B ...
     i18n: company_b_desc
   date:
-    detail: 2012
+    detail: Jun. 2015
     i18n: company_b_date
   job:
-    detail: 
+    detail: Full Stack Developer
     i18n: company_b_job
   icon: fa-plus-square
-
-- name: f
-    detail: Mercedes Benz International School Model United Nations
-    i18n: company_a
-  desc:
-    detail: Won Best Delegate Award
-    i18n: company_a_desc
-  date:
-    detail: 2014
-    i18n: company_a_date
-  job:
-    detail: 
-    i18n: company_a_job
-  icon: fa-plus-square
-  
- - name: g
-    detail: Chennai Model United Nations
-    i18n: company_a
-  desc:
-    detail: Attended as a Delegate
-    i18n: company_a_desc
-  date:
-    detail: 2014
-    i18n: company_a_date
-  job:
-    detail: 
-    i18n: company_a_job
-  icon: fa-plus-square
-  
-  - name: h
-    detail: Mercedes Benz International School Model United Nations
-    i18n: company_a
-  desc:
-    detail: Chaired Security Council
-    i18n: company_a_desc
-  date:
-    detail: 2015
-    i18n: company_a_date
-  job:
-    detail: 
-    i18n: company_a_job
-  icon: fa-plus-square
-  
-- name: i
-    detail: Chennai Model United Nations
-    i18n: company_a
-  desc:
-    detail: Attended as a Delegate
-    i18n: company_a_desc
-  date:
-    detail: 2015
-    i18n: company_a_date
-  job:
-    detail: 
-    i18n: company_a_job
-  icon: fa-plus-square
-  
-- name: j
-    detail: Take Back the Night
-    i18n: company_b
-  desc:
-    detail: Played Guitar at Take Back the Night Charity Concert
-    i18n: company_b_desc
-  date:
-    detail: 2015
-    i18n: company_b_date
-  job:
-    detail: 
-    i18n: company_b_job
-  icon: fa-plus-square
-  
-- name: k
-    detail: Indian International School Model United Nations
-    i18n: company_a
-  desc:
-    detail: Won High Commendation Award
-    i18n: company_a_desc
-  date:
-    detail: 2016
-    i18n: company_a_date
-  job:
-    detail: 
-    i18n: company_a_job
-  icon: fa-plus-square
-
-- name: l
-    detail: The Hague Model United Nations
-    i18n: company_a
-  desc:
-    detail: Commended by the President of the General Assembly
-    i18n: company_a_desc
-  date:
-    detail: 2016
-    i18n: company_a_date
-  job:
-    detail: 
-    i18n: company_a_job
-  icon: fa-plus-square
-  
-- name: m
-    detail: Pune Model United Nations
-    i18n: company_a
-  desc:
-    detail: Won Best Delegate Award
-    i18n: company_a_desc
-  date:
-    detail: 2016
-    i18n: company_a_date
-  job:
-    detail: 
-    i18n: company_a_job
-  icon: fa-plus-square
-
-- name: n
-    detail: School Talent Show
-    i18n: company_b
-  desc:
-    detail: Won Third Place at School Talent Show
-    i18n: company_b_desc
-  date:
-    detail: 2016
-    i18n: company_b_date
-  job:
-    detail: 
-    i18n: company_b_job
-  icon: fa-plus-square
-  
-- name: o
-    detail: Trinity Rock and Pop Grade 4
-    i18n: company_b
-  desc:
-    detail: Achieved Distinction for Guitar
-    i18n: company_b_desc
-  date:
-    detail: 2016
-    i18n: company_b_date
-  job:
-    detail: 
-    i18n: company_b_job
-  icon: fa-plus-square
-  
-- name: p
-    detail: Student of the Year Award
-    i18n: company_b
-  desc:
-    detail: Won Student of the Year Award
-    i18n: company_b_desc
-  date:
-    detail: 2016
-    i18n: company_b_date
-  job:
-    detail: 
-    i18n: company_b_job
-  icon: fa-plus-square
-  
-- name: q
-    detail: Take Back the Night
-    i18n: company_b
-  desc:
-    detail: Played Guitar at Take Back the Night Charity Concert
-    i18n: company_b_desc
-  date:
-    detail: 2016
-    i18n: company_b_date
-  job:
-    detail: 
-    i18n: company_b_job
-  icon: fa-plus-square
-  
-- name: r
-    detail: Muziclub Public Concert
-    i18n: company_b
-  desc:
-    detail: Played Guitar at Muziclub Public Concert
-    i18n: company_b_desc
-  date:
-    detail: 2016
-    i18n: company_b_date
-  job:
-    detail: 
-    i18n: company_b_job
-  icon: fa-plus-square
-  
-- name: s
-    detail: Candy Cane Club
-    i18n: company_b
-  desc:
-    detail: Digital Marketing and Graphic Design Intern at Candy Cane Club
-    i18n: company_b_desc
-  date:
-    detail: 2016
-    i18n: company_b_date
-  job:
-    detail: 
-    i18n: company_b_job
-  icon: fa-plus-square
-  
-- name: t
-    detail: Personal Project
-    i18n: company_b
-  desc:
-    detail: Taught the children of local quarry workers various musical instruments and put up a concert for 300 people.
-    i18n: company_b_desc
-  date:
-    detail: 2016
-    i18n: company_b_date
-  job:
-    detail: 
-    i18n: company_b_job
-  icon: fa-plus-square
-  
   
