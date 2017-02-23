@@ -1,17 +1,17 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
-- name: 
-  detail: School Band
-  i18n: company_a
+- name:
+    detail: School Band
+    i18n: company_a
   desc:
-  detail: Lead School Band
-  i18n: company_a_desc
+    detail: Lead School Band
+    i18n: company_a_desc
   date:
-  detail: 2011-Present
-  i18n: company_a_date
+    detail: 2011-Present
+    i18n: company_a_date
   job:
-  detail: 
-  i18n: company_a_job
+    detail:
+    i18n: company_a_job
   icon: fa-plus-square
 
 - name:
