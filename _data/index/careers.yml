@@ -1,6 +1,6 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
-- name:
+- name: a
     detail: School Band
     i18n: company_a
   desc:
@@ -14,7 +14,21 @@
     i18n: company_a_job
   icon: fa-plus-square
   
-  - name:
+- name: b
+    detail: Student Council
+    i18n: company_a
+  desc:
+    detail: Elected to Student Council
+    i18n: company_a_desc
+  date:
+    detail: 2011-Present
+    i18n: company_a_date
+  job:
+    detail: Treasurer, Vice-President
+    i18n: company_a_job
+  icon: fa-plus-square
+  
+- name: c
     detail: Ultimate Frisbee
     i18n: company_a
   desc:
@@ -28,7 +42,7 @@
     i18n: company_a_job
   icon: fa-plus-square
 
-- name:
+- name: d
     detail: Yearbook Club
     i18n: company_a
   desc:
@@ -42,7 +56,7 @@
     i18n: company_a_job
   icon: fa-plus-square
 
-- name:
+- name: e
     detail: Blue Frog Café
     i18n: company_b
   desc:
@@ -56,7 +70,7 @@
     i18n: company_b_job
   icon: fa-plus-square
 
-- name:
+- name: f
     detail: Mercedes Benz International School Model United Nations
     i18n: company_a
   desc:
@@ -70,7 +84,7 @@
     i18n: company_a_job
   icon: fa-plus-square
   
-  - name:
+ - name: g
     detail: Chennai Model United Nations
     i18n: company_a
   desc:
@@ -84,7 +98,7 @@
     i18n: company_a_job
   icon: fa-plus-square
   
-  - name:
+  - name: h
     detail: Mercedes Benz International School Model United Nations
     i18n: company_a
   desc:
@@ -98,7 +112,7 @@
     i18n: company_a_job
   icon: fa-plus-square
   
-  - name:
+- name: i
     detail: Chennai Model United Nations
     i18n: company_a
   desc:
@@ -112,7 +126,7 @@
     i18n: company_a_job
   icon: fa-plus-square
   
-   - name:
+- name: j
     detail: Take Back the Night
     i18n: company_b
   desc:
@@ -126,7 +140,7 @@
     i18n: company_b_job
   icon: fa-plus-square
   
-  - name:
+- name: k
     detail: Indian International School Model United Nations
     i18n: company_a
   desc:
@@ -140,7 +154,7 @@
     i18n: company_a_job
   icon: fa-plus-square
 
-- name:
+- name: l
     detail: The Hague Model United Nations
     i18n: company_a
   desc:
@@ -154,7 +168,7 @@
     i18n: company_a_job
   icon: fa-plus-square
   
-  - name:
+- name: m
     detail: Pune Model United Nations
     i18n: company_a
   desc:
@@ -168,7 +182,7 @@
     i18n: company_a_job
   icon: fa-plus-square
 
-- name:
+- name: n
     detail: School Talent Show
     i18n: company_b
   desc:
@@ -182,7 +196,7 @@
     i18n: company_b_job
   icon: fa-plus-square
   
-  - name:
+- name: o
     detail: Trinity Rock and Pop Grade 4
     i18n: company_b
   desc:
@@ -196,7 +210,7 @@
     i18n: company_b_job
   icon: fa-plus-square
   
-  - name:
+- name: p
     detail: Student of the Year Award
     i18n: company_b
   desc:
@@ -210,7 +224,7 @@
     i18n: company_b_job
   icon: fa-plus-square
   
-  - name:
+- name: q
     detail: Take Back the Night
     i18n: company_b
   desc:
@@ -224,7 +238,7 @@
     i18n: company_b_job
   icon: fa-plus-square
   
-  - name:
+- name: r
     detail: Muziclub Public Concert
     i18n: company_b
   desc:
@@ -238,7 +252,7 @@
     i18n: company_b_job
   icon: fa-plus-square
   
-  - name:
+- name: s
     detail: Candy Cane Club
     i18n: company_b
   desc:
@@ -252,7 +266,7 @@
     i18n: company_b_job
   icon: fa-plus-square
   
-  - name:
+- name: t
     detail: Personal Project
     i18n: company_b
   desc:
