@@ -43,13 +43,13 @@
   icon: fa-plus-square
   
 - name:
-    detail: Yearbook Club
+    detail: Mercedes Benz International School Model United Nations
     i18n: company_d
   desc:
-    detail: Worked as a Graphic Designer for the School Yearbook
+    detail: Deputy Secretary General
     i18n: company_d_desc
   date:
-    detail: 2011-2014
+    detail: 2016
     i18n: company_d_date
   job:
     detail:
@@ -57,13 +57,13 @@
   icon: fa-plus-square
   
 - name:
-    detail: Blue Frog Café
+    detail: The Hague Model United Nations
     i18n: company_e
   desc:
-    detail: Played Guitar at Blue Frog Café Mumbai
+    detail: Commended by the President of the General Assembly
     i18n: company_e_desc
   date:
-    detail: 2012
+    detail: 2016
     i18n: company_e_date
   job:
     detail:
