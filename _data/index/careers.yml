@@ -84,3 +84,17 @@
     i18n: company_b_job
   icon: fa-plus-square
   
+- name:
+    detail: Candy Cane Club
+    i18n: company_b
+  desc:
+    detail: Digital Marketing and Graphic Design Intern at Candy Cane Club
+    i18n: company_b_desc
+  date:
+    detail: 206
+    i18n: company_b_date
+  job:
+    detail:
+    i18n: company_b_job
+  icon: fa-plus-square
+  
