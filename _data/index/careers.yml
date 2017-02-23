@@ -91,24 +91,11 @@
     detail: Digital Marketing and Graphic Design Intern at Candy Cane Club
     i18n: company_g_desc
   date:
-    detail: 206
+    detail: 2016
     i18n: company_g_date
   job:
-    detail:
+    detail: Treasurer, Vice-President
     i18n: company_g_job
   icon: fa-plus-square
-  
-  - name:
-    detail: Personal Project
-    i18n: company_h
-  desc:
-    detail: Taught the children of local quarry workers various musical instruments and put up a concert for 300 people.
-    i18n: company_h_desc
-  date:
-    detail: 2016
-    i18n: company_h_date
-  job:
-    detail: 
-    i18n: company_h_job
-  icon: fa-plus-square
+
   
