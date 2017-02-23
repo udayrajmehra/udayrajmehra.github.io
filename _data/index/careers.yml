@@ -42,5 +42,19 @@
     i18n: company_c_job
   icon: fa-plus-square
   
+- name:
+    detail: Yearbook Club
+    i18n: company_d
+  desc:
+    detail: Worked as a Graphic Designer for the School Yearbook
+    i18n: company_d_desc
+  date:
+    detail: 2011-2014
+    i18n: company_d_date
+  job:
+    detail:
+    i18n: company_d_job
+  icon: fa-plus-square
+  
 
   
